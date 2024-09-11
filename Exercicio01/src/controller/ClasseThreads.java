@@ -42,7 +42,7 @@ public class ClasseThreads extends Thread {
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            System.out.println("#" + idBancarrio + ":" + (indx + 1) + "º transação concluída!");
+            System.out.println("#" + idBancarrio + ": " + (indx + 1) + "º transação concluída!");
         }
     }
 
